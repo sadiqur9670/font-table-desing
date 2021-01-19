@@ -1,0 +1,73 @@
+.text1 p{
+	text-align: center;
+    font-size: 73px;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+.text2 p{
+	text-align: center;
+    font-size: 73px;
+    font-family: "Times New Roman", Times, serif;
+	
+}
+.text3 p{
+	text-align: center;
+    font-size: 73px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.text4 p{
+	text-align: center;
+    font-size: 73px;
+  font-family: Copperplate, Papyrus, fantasy;
+}
+table{
+	margin: 0 auto;
+	width: 100%;
+	border: 1px solid green;
+	border-collapse: collapse;
+}
+table tr{
+
+
+}
+
+table tr th{
+	width: 1%;
+	height: 20px;
+	border: 1px solid green;
+	border-collapse: collapse;
+}
+.container .table-style table{
+	font-family: Arial, Helvetica, sans-serif;
+	width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-left: 2px solid #ddd;
+    border-right: 2px solid #ddd;
+    margin-bottom: 100px;
+}
+.table-style table tr th{
+	background: #4CAF50;
+	border: 1px solid white;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	padding: 5px 0px;
+}
+.table-style table tr{
+	line-height: 27px;
+
+}
+.table-style table tr td{
+	padding-left: 10px;
+	font-size: 16px;
+	padding: 5px 0px;
+	padding-left: 10px;
+	border: 1px solid white;
+
+}
+.table-style table tr:nth-child(even){
+	background: #e1dada;
+}
+.table-style table tr:hover{
+	background: #a8a1a1;
+}
